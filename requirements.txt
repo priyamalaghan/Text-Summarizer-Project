@@ -1,0 +1,45 @@
+#NLP & ML Libraries
+
+transformers # The Hugging Face library for state-of-the-art pretrained models (e.g., BERT, GPT, T5) used for tasks like text classification, translation, and summarization.
+transformers[sentencepiece] # Adds support for models that use SentencePiece tokenization (e.g., T5, MarianMT). SentencePiece is required for handling subword tokenization
+datasets # Hugging Face library for accessing and using popular NLP datasets and custom dataset processing.
+sacrebleu # For evaluating machine translation using the BLEU score in a standardized way 
+rouge_score # Used to compute ROUGE metrics (precision/recall/F1), often for summarization tasks
+nltk # Natural Language Toolkit; supports tokenization, stopwords, stemming, et
+
+# Utilities & Processing
+
+py7zr # For extracting and working with .7z compressed files — often used for datasets
+tqdm # Adds progress bars to loops, especially helpful in model training or data preprocessing
+PyYAML # For reading and writing .yaml configuration files
+matplotlib # For plotting graphs (e.g., loss curves, accuracy trends)
+pandas # Tabular data processing — useful for dataset manipulation and analysis
+
+#Deep Learning Framework
+
+torch # PyTorch — main deep learning library for training/evaluating models
+
+#Experimentation & Dev
+
+notebook # Enables running Jupyter Notebooks, often used for interactive development.
+
+#AWS Integration
+
+boto3 # AWS SDK for Python — commonly used for accessing S3 buckets or other AWS services
+mypy-boto3-s3 # Type hinting support for boto3 S3 resources in static analysis (e.g., with mypy)
+
+#Configuration & Validation
+
+python-box==6.0.2 # Provides a dictionary-like object with dot-notation access (e.g., config.learning_rate), useful for config handling
+ensure==1.0.2 # Small utility to validate or coerce values (e.g., ensure(str, input_val)).
+
+#Web API
+fastapi==0.78.0 # High-performance web framework for building APIs (e.g., serving ML models).
+uvicorn==0.18.3 # ASGI server to run FastAPI applications.
+Jinja2==3.1.2 # Template engine, commonly used for HTML rendering in web apps
+
+# Editable Local Package
+# Installs the current directory as an editable package. Useful when developing a Python package so changes in code are reflected immediately without reinstalling.
+# -e stands for editable install.
+# . means the current directory (where your package lives)
+-e .

@@ -43,3 +43,6 @@ for filepath in list_of_files:
 
     else:
         logging.info(f"{filename} already exists")
+
+
+    #environment location: C:\Users\Priya\Python\envs\textS
