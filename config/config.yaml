@@ -1,0 +1,10 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/priyamalaghan/Datasets/raw/refs/heads/main/summarizer-data.zip
+  #Below line defines where to save the ZIP file after downloading it from the source_URL. It keeps the ZIP file stored here before extracting its contents
+  local_data_file: artifacts/data_ingestion/data.zip
+  #Below line tells the script where to unzip or extract the contents of data.zip
+  unzip_dir: artifacts/data_ingestion
+
