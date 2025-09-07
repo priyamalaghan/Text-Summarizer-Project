@@ -6,6 +6,8 @@ datasets # Hugging Face library for accessing and using popular NLP datasets and
 sacrebleu # For evaluating machine translation using the BLEU score in a standardized way 
 rouge_score # Used to compute ROUGE metrics (precision/recall/F1), often for summarization tasks
 nltk # Natural Language Toolkit; supports tokenization, stopwords, stemming, et
+evaluate
+absl-py
 
 # Utilities & Processing
 

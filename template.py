@@ -37,7 +37,7 @@ for filepath in list_of_files:
         logging.info(f"Creating directory:{filedir} for the file {filename}")
 
     if (not os.path.exists(filepath)) or (os.path.getsize(filepath)==0):    
-        with open(filepath, 'w') as f: #Opens the file in write mode ('w'), which creates an empty file if it doesn't exist or truncates it if it does.
+        with open(filepath, 'w') as f: #Opens the file in 'w' Mode. 'w' means write mode: which creates an empty file if it doesn't exist or If the file already exists, it overwrites (empties) the file.
             pass
             logging.info(f"Creating empty file: {filepath}")
 
