@@ -63,6 +63,7 @@ class ConfigurationManager:
             root_dir = config.root_dir,
             data_path = config.data_path,
             model_ckpt = config.model_ckpt,
+            save_safetensors = params.save_safetensors,
             num_train_epochs = params.num_train_epochs,
             warmup_steps = params.warmup_steps,
             per_device_train_batch_size = params.per_device_train_batch_size,

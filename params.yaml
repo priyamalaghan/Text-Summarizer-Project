@@ -1,4 +1,5 @@
 TrainingArguments:
+  save_safetensors: False
   num_train_epochs: 1
   warmup_steps: 0
   per_device_train_batch_size: 1
