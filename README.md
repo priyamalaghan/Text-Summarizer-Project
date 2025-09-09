@@ -15,7 +15,7 @@
 # STEPS:
 ### Clone the repository
 
-https://github.com/entbappy/End-to-end-Text-Summarization
+https://github.com/priyamalaghan/Text-Summarizer-Project.git
 
 ## STEP 01- Create a conda environment after opening the repository
 conda create -n summary python=3.8 -y
